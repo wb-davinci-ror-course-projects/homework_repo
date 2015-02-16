@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-  - '2.1.5'
+  - "2.1.5"
 script: bundle exec cucumber -r features features
 before_install:
   - export BUNDLE_GEMFILE=$PWD/homework_tester/Gemfile
